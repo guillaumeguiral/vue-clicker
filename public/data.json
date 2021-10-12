@@ -1,0 +1,443 @@
+{
+  "parts": [
+    {
+      "id": "part-a",
+      "name": "Part A",
+      "description": "Chipset that generate credits over time",
+      "icon": "./images/microchip-test.png",
+      "baseCost": 10,
+      "baseIncomeRate": 0.1,
+      "built": 0,
+      "upgrades": [
+        {
+          "id": "upg-1",
+          "name": "Iron chipset",
+          "icon": "https://via.placeholder.com/128x128/333333/666666?text=UPG1",
+          "cost": 10000,
+          "conditions": {
+            "built": 50
+          },
+          "unlocked": false,
+          "bonus": {
+            "type": "percent",
+            "value": "10%"
+          }
+        },
+        {
+          "id": "upg-2",
+          "name": "Gold chipset",
+          "icon": "https://via.placeholder.com/128x128/FFCC00/333333?text=UPG2",
+          "cost": 100000,
+          "conditions": {
+            "built": 100
+          },
+          "unlocked": false,
+          "bonus": {
+            "type": "percent",
+            "value": "20%"
+          }
+        },
+        {
+          "id": "upg-3",
+          "name": "Diamond chipset",
+          "icon": "https://via.placeholder.com/128x128/FFCC00/333333?text=UPG3",
+          "cost": 1000000,
+          "conditions": {
+            "built": 200
+          },
+          "unlocked": false,
+          "bonus": {
+            "type": "percent",
+            "value": "30%"
+          }
+        }
+      ]
+    },
+    {
+      "id": "part-b",
+      "name": "Part B",
+      "description": "Chipset that generate credits over time",
+      "icon": "./images/microchip-test.png",
+      "baseCost": 100,
+      "baseIncomeRate": 0.5,
+      "built": 0
+    },
+    {
+      "id": "part-c",
+      "name": "Part C",
+      "description": "Chipset that generate credits over time",
+      "icon": "./images/microchip-test.png",
+      "baseCost": 500,
+      "baseIncomeRate": 4,
+      "built": 0
+    },
+    {
+      "id": "part-d",
+      "name": "Part D",
+      "description": "Chipset that generate credits over time",
+      "icon": "./images/microchip-test.png",
+      "baseCost": 3000,
+      "baseIncomeRate": 10,
+      "built": 0
+    },
+    {
+      "id": "part-e",
+      "name": "Part E",
+      "description": "Chipset that generate credits over time",
+      "icon": "./images/microchip-test.png",
+      "baseCost": 10000,
+      "baseIncomeRate": 40,
+      "built": 0
+    },
+    {
+      "id": "part-f",
+      "name": "Part F",
+      "description": "Chipset that generate credits over time",
+      "icon": "./images/microchip-test.png",
+      "baseCost": 40000,
+      "baseIncomeRate": 100,
+      "built": 0
+    },
+    {
+      "id": "part-g",
+      "name": "Part G",
+      "description": "Chipset that generate credits over time",
+      "icon": "./images/microchip-test.png",
+      "baseCost": 200000,
+      "baseIncomeRate": 400,
+      "built": 0
+    },
+    {
+      "id": "part-h",
+      "name": "Part H",
+      "description": "Chipset that generate credits over time",
+      "icon": "./images/microchip-test.png",
+      "baseCost": 1666666,
+      "baseIncomeRate": 6666,
+      "built": 0
+    },
+    {
+      "id": "part-i",
+      "name": "Part I",
+      "description": "Chipset that generate credits over time",
+      "icon": "./images/microchip-test.png",
+      "baseCost": 123456789,
+      "baseIncomeRate": 98765,
+      "built": 0
+    },
+    {
+      "id": "part-j",
+      "name": "Part J",
+      "description": "Chipset that generate credits over time",
+      "icon": "./images/microchip-test.png",
+      "baseCost": 3999999999,
+      "baseIncomeRate": 999999,
+      "built": 0
+    },
+    {
+      "id": "part-k",
+      "name": "Part K",
+      "description": "Chipset that generate credits over time",
+      "icon": "./images/microchip-test.png",
+      "baseCost": 75000000000,
+      "baseIncomeRate": 100000000,
+      "built": 0
+    }
+  ],
+  "globalUpgrades": [
+    {
+      "id": "power-storage-1",
+      "name": "Power storage 1",
+      "description": "Increase the capacity of power storage by 2",
+      "icon": "fa-database",
+      "baseCost": 1000000,
+      "condition": {},
+      "unlocked": false
+    }
+  ],
+  "buffs": [
+    {
+      "id": "6dD7kYA0tXKKdSYBYsrGMioYn3nAIlBZ",
+      "name": "Manual Burst",
+      "icon": "https://via.placeholder.com/128x128/FF6600/FFFFFF?text=MB",
+      "rarity": 0.6,
+      "bonus": {
+        "type": "percent",
+        "value": "200%"
+      }
+    },
+    {
+      "id": "XgTUXG46fgA2LrycKsjfRJNwc4x0ZbHy",
+      "name": "Surcharge",
+      "icon": "https://via.placeholder.com/128x128/FF33CC/FFFFFF?text=SC",
+      "rarity": 0.1,
+      "bonus": {
+        "type": "percent",
+        "value": "200%"
+      }
+    }
+  ],
+  "achievements": [
+    {
+      "id": "LXaxgzjIMHh8B9te2OirlygW4WlQc0S7",
+      "title": "Part A",
+      "text": "Built your first part A",
+      "icon": "fa-microchip",
+      "condition": {
+        "type": "part",
+        "part": "part-a",
+        "value": 1
+      },
+      "unlocked": false
+    },
+    {
+      "id": "VzalIjTlKufjUlufg3qhkpDwYu2IQAZ3",
+      "title": "Part A",
+      "text": "Build at least 10 part A",
+      "icon": "fa-microchip",
+      "condition": {
+        "type": "part",
+        "part": "part-a",
+        "value": 10
+      },
+      "unlocked": false
+    },
+    {
+      "id": "AOwKa39hgp05If63iTFtCb5lIfsFzBgh",
+      "title": "Part A",
+      "text": "Build at least 100 part A",
+      "icon": "fa-microchip",
+      "condition": {
+        "type": "part",
+        "part": "part-a",
+        "value": 100
+      },
+      "unlocked": false
+    },
+    {
+      "id": "pEsnqDbaaDgcs7YVtmvnMGkBsHBAQMrE",
+      "title": "Part A",
+      "text": "Build at least 1,000 part A",
+      "icon": "fa-microchip",
+      "condition": {
+        "type": "part",
+        "part": "part-a",
+        "value": 1000
+      },
+      "unlocked": false
+    },
+    {
+      "id": "HkrvqkdfHPzwDFxMBNSQYcizDlchZfHc",
+      "title": "Part B",
+      "text": "Built your first part B",
+      "icon": "fa-microchip",
+      "condition": {
+        "type": "part",
+        "part": "part-b",
+        "value": 1
+      },
+      "unlocked": false
+    },
+    {
+      "id": "qnmbLNa4HUUcbUwgA4MBfz2WEBFyMVfc",
+      "title": "Part B",
+      "text": "Build at least 10 part B",
+      "icon": "fa-microchip",
+      "condition": {
+        "type": "part",
+        "part": "part-b",
+        "value": 10
+      },
+      "unlocked": false
+    },
+    {
+      "id": "XNwZANSEAkv1ZkfYRBCOCjVyMn9CoPz8",
+      "title": "Part B",
+      "text": "Build at least 100 part B",
+      "icon": "fa-microchip",
+      "condition": {
+        "type": "part",
+        "part": "part-b",
+        "value": 100
+      },
+      "unlocked": false
+    },
+    {
+      "id": "hlysypalZ1NdzXrWsoOsDsWq3UGxqVDs",
+      "title": "Part B",
+      "text": "Build at least 1,000 part B",
+      "icon": "fa-microchip",
+      "condition": {
+        "type": "part",
+        "part": "part-b",
+        "value": 1000
+      },
+      "unlocked": false
+    },
+    {
+      "id": "z15LBYs6xBxcZpYXU1FD1AEAsWeTt0EP",
+      "title": "A good start",
+      "text": "Cumulate 100 credits",
+      "icon": "fa-dollar-sign",
+      "condition": {
+        "type": "credits",
+        "value": 100
+      },
+      "unlocked": false
+    },
+    {
+      "id": "f03Eof2RLc431tu3fTlGKMJBZz2oP6oN",
+      "title": "Here we go",
+      "text": "Cumulate 1,000 credits",
+      "icon": "fa-dollar-sign",
+      "condition": {
+        "type": "credits",
+        "value": 1000
+      },
+      "unlocked": false
+    },
+    {
+      "id": "bIpmDriLazPNRs03PZQafXjGCxxhrJO2",
+      "title": "A very little fortune",
+      "text": "Cumulate 10,000 credits",
+      "icon": "fa-dollar-sign",
+      "condition": {
+        "type": "credits",
+        "value": 10000
+      },
+      "unlocked": false
+    },
+    {
+      "id": "xtPCnrlcAlPs98KcMORfDwBnaMCXvIGR",
+      "title": "Rich rich rich",
+      "text": "Cumulate 100,000 credits",
+      "icon": "fa-dollar-sign",
+      "condition": {
+        "type": "credits",
+        "value": 100000
+      },
+      "unlocked": false
+    },
+    {
+      "id": "xt8B5KwroU7XgCMfUHc4tRRiY8RTFID1",
+      "title": "The million !",
+      "text": "Cumulate 1,000,000 credits",
+      "icon": "fa-dollar-sign",
+      "condition": {
+        "type": "credits",
+        "value": 1000000
+      },
+      "unlocked": false
+    },
+    {
+      "id": "0XXvajugonLxRbK3UAxIUHArL9xFuFGN",
+      "title": "The billion !",
+      "text": "Cumulate 1,000,000,000 credits",
+      "icon": "fa-dollar-sign",
+      "condition": {
+        "type": "credits",
+        "value": 1000000000
+      },
+      "unlocked": false
+    },
+    {
+      "id": "JjPzelrPJkjFsEvt1FfEnFlIF89Ogmpi",
+      "title": "The trillion !",
+      "text": "Cumulate 1,000,000,000,000 credits",
+      "icon": "fa-dollar-sign",
+      "condition": {
+        "type": "credits",
+        "value": 1000000000000
+      },
+      "unlocked": false
+    },
+    {
+      "id": "WvhHL2R40AIPTGddErGDCqpDCt00IlaQ",
+      "title": "The beginning",
+      "text": "Generate 1 credit per second",
+      "icon": "fa-cogs",
+      "condition": {
+        "type": "generation",
+        "value": 1
+      },
+      "unlocked": false
+    },
+    {
+      "id": "J9h9rrPY6Nhe4D0iArOUjtVz4SNlcwuB",
+      "title": "Automation",
+      "text": "Generate 10 credits per second",
+      "icon": "fa-cogs",
+      "condition": {
+        "type": "generation",
+        "value": 10
+      },
+      "unlocked": false
+    },
+    {
+      "id": "wztKjCWN6W57tn23l6F6G1SSUtiPkL3F",
+      "title": "First factory",
+      "text": "Generate 100 credits per second",
+      "icon": "fa-cogs",
+      "condition": {
+        "type": "generation",
+        "value": 100
+      },
+      "unlocked": false
+    },
+    {
+      "id": "DlKxZbcXiV6O2E8HCLrukYTUVzXrXdh4",
+      "title": "Serious job",
+      "text": "Generate 1,000 credits per second",
+      "icon": "fa-cogs",
+      "condition": {
+        "type": "generation",
+        "value": 1000
+      },
+      "unlocked": false
+    },
+    {
+      "id": "s1e1MNDp0zuerjdeCGiyZ3zm969JpRAw",
+      "title": "Industrialization",
+      "text": "Generate 10,000 credits per second",
+      "icon": "fa-cogs",
+      "condition": {
+        "type": "generation",
+        "value": 10000
+      },
+      "unlocked": false
+    },
+    {
+      "id": "CjYby8risCZ02wD4uGJfpANljvhHJwvd",
+      "title": "Manufacturer",
+      "text": "Generate 100,000 credits per second",
+      "icon": "fa-cogs",
+      "condition": {
+        "type": "generation",
+        "value": 100000
+      },
+      "unlocked": false
+    },
+    {
+      "id": "Z8UbZ30OJjtMYi6lCMih0VEKX2tp7b28",
+      "title": "The boss",
+      "text": "Generate 1,000,000 credits per second",
+      "icon": "fa-cogs",
+      "condition": {
+        "type": "generation",
+        "value": 1000000
+      },
+      "unlocked": false
+    },
+    {
+      "id": "xS2xFETyvtrj6nddQzWYJB5xkYTKIvEo",
+      "title": "Lights off",
+      "text": "Runing out of power",
+      "icon": "fa-cogs",
+      "condition": {
+        "type": "energy",
+        "value": 0
+      },
+      "unlocked": false
+    }
+  ]
+}
